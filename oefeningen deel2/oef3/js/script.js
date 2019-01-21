@@ -1,6 +1,10 @@
 let a = 3;
 let b = 2;
 
-document.getElementById('button').onclick = function something(){
-  
+function tripple (x){
+  return x*3
+}
+
+document.getElementById('button').onclick = function display(){
+alert(`${tripple(a)}\n${tripple(b)}`);
 }

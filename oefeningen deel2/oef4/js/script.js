@@ -1,11 +1,9 @@
-let tab [-2,1,4];
+let tab = [-2,1,4];
 
-function add(x){
-  return x+2
-};
+const add = x => x+2;
 
-document.getElementById('button').onclick = function display (){
+const display = () => {
 for (i=0; i<tab.length; i++) {
-
+alert(add(tab[i]))
 }
-}
+};

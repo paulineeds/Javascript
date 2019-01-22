@@ -1,16 +1,15 @@
 let tab = [-2,1,4];
 
-const subtract = x => x-tab[0];
+let x = prompt('wat is x?')
+const subtract = (x,y)  => x-y;
 
-const test = () => subtract;
-  for (x <= 0) {
-    "getal possitief"
+  if ( subtract(x,tab[0]) >= 0) {
+    alert("getal positief")
   } else {
-    "getal negatief"
+    alert("getal negatief")
   }
 
 
-const display = ()=> {
-  subtract
-
+const display = () => {
+  alert(subtract(x,tab[0])), alert(subtract(x,tab[tab.length-1]))
 }

@@ -1,0 +1,3 @@
+# JavaScript
+
+exercises on JavaScript
